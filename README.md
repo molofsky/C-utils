@@ -1,4 +1,4 @@
-# C-lib
+# C-utils
 
 A collection of fundamental C utilities.
 
