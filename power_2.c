@@ -15,7 +15,7 @@ bool power_2(int n) {
 
 int main(int argc, char *argv[]) {
   if (argc == 2) {
-    int num = argv[1];
+    int num = atoi(argv[1]);
     if (power_2(num)) printf("%d is a power of two\n", num);
     else printf("%d is not a power of two\n", num);
   } else {
