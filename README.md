@@ -1,6 +1,6 @@
 # C-lib
 
-A collection of fundamental C library utilities.
+A collection of fundamental C utilities.
 
 ## Utilities
 - `swap`: Generic byte-level swap
