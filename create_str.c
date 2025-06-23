@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 char *create_string(char ch, int num) {
-    char *new_str = malloc(sizeof(char*) * (num + 1));
+    char *new_str = malloc(sizeof(char) * (num + 1));
     for (int i = 0; i < num; i++) {
         new_str[i] = ch;
     }
@@ -19,7 +19,7 @@ char *create_string(char ch, int num) {
 
 main(int argc, char *argv[]) {
     if (argc == 3) {
-    char *str = create_string(argv[1], argv[2]);
+    char *str = create_string(argv[1][0], atoi(argv[2]));
     printf("%s\n",str); 
     return 0;
     } else {
