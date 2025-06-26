@@ -1,4 +1,4 @@
-# C-utils
+# C Utilities
 
 A collection of fundamental C utilities.
 
