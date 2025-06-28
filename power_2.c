@@ -8,9 +8,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Helper function to be called by main. Tells whether a number is a power of two */
+/* Helper function to be called by main. Tells whether a number is a power of two. Terminates early if the number is negative. */
 bool power_2(int n) {
-  return ((n & (n - 1)) == 0) && (n != 0);
+  return (n > 0) && ((n & (n - 1)) == 0);
 }
 
 int main(int argc, char *argv[]) {
