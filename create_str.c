@@ -1,4 +1,5 @@
-/* Function to create a dynamically allocated string given input allocation size and characters
+/* 
+* Function to create a dynamically allocated string given input allocation size and characters.
 *
 * @author Adrian Molofsky
 * @version 10/19/22
