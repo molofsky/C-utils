@@ -1,4 +1,5 @@
-/* Function to return the substring from given start and end characters
+/* 
+* Function to return the substring from given start and end characters.
 *
 * @author Adrian Molofsky
 * @version 10/31/22
