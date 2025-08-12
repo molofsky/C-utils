@@ -1,4 +1,5 @@
-/* An implementation of the C library function strcpy 
+/*
+* An implementation of the C library function strcpy.
 *
 * @author Adrian Molofsky
 * @version 1/19/23
