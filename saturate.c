@@ -1,4 +1,5 @@
-/* A set of functions to saturate arithmetic for n bit numbers.
+/* 
+* A set of functions to saturate arithmetic for n bit numbers.
 * 
 * @author Adrian Molofsky
 * @version 12/26/22
@@ -35,7 +36,7 @@ long sat_add(long operand1, long operand2, int bitwidth) {
         }
     }
     if (sigOp1 && sigOp2) { //if both operands are negative
-        if (((unsigned long)result >> 63) & ~(~0 << 1)) {//if sigResult is positiv
+        if (((unsigned long)result >> 63) & ~(~0 << 1)) {//if sigResult is positive
             result = min;
         }
     }
